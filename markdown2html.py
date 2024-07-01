@@ -75,7 +75,8 @@ def process_line(line, unordered_start, ordered_start, paragraph):
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        print('Usage: ./markdown2html.py README.md README.html', file=sys.stderr)
+        text = " ./markdown2html.py README.md README.html"
+        print('Usage:' + text, file=sys.stderr)
         sys.exit(1)
 
     if not os.path.isfile(sys.argv[1]):
