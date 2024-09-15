@@ -1,4 +1,10 @@
-@for $item from 1 through 4 {
+@import '11-names';
+
+@each $name in $list-names {
+    .#{$name} {
+        background-image: url('/images/#{$name}.jpg');
+    }
+}@for $item from 1 through 4 {
     .col-#{$item} {
       width: 100% / $item;
     }
