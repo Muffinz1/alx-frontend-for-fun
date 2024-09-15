@@ -1,4 +1,0 @@
-/* strings to be sorted */
-$list_to_sort: john anna zoe kim felicia carrie;
-$list_sorted: sort($list_to_sort);
-@debug $list_sorted;
