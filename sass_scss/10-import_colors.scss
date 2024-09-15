@@ -1,4 +1,15 @@
-/* Colors */
-$red: #FF0000;
-$green: #00FF00;
-$blue: #0000FF;
+/* using @import */
+
+@import "10-all_colors.scss";
+
+.red{
+	color: $red;
+}
+
+.green{
+	color: $green;
+}
+
+.blue{
+	color: $blue;
+}
