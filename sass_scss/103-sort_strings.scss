@@ -1,0 +1,4 @@
+/*Fries strings to be sorted*/
+$list_to_sort: curly-fries, mashed-potatoes, tater-tots, french-fries;
+$list_sorted: sort($list_to_sort);
+@debug $list_sorted;
